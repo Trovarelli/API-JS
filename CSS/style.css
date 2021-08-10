@@ -1,0 +1,22 @@
+#coins{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.media {
+    display: flex;
+    width: 20%;
+    height:20%;
+}
+
+.media img{
+    display: flex;
+    width: 50%;
+}
+
+.padding{
+    margin-left: 10px;
+    padding-right: 5px;
+}
