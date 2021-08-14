@@ -1,3 +1,6 @@
+body {
+    background-color: rgb(216, 216, 216);
+}
 #coins{
     display: flex;
     flex-direction: row;
@@ -19,4 +22,17 @@
 .padding{
     margin-left: 10px;
     padding-right: 5px;
+}
+
+.sub {
+    text-align: center;
+    margin-bottom: 2%;
+    margin-top: 1%;
+}
+
+header {
+    display: flex;
+    justify-content: center;
+    background-color: rgb(31, 31, 31);
+    color: rgb(211, 211, 211);
 }

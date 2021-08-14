@@ -9,10 +9,10 @@ fetch(`https://pro-api.coinmarketcap.com/v1/cryptocurrency/map?CMC_PRO_API_KEY=$
     })
     .then((api)=>{
         var texto = ''
-        //pega 10 moedas melhores rankeadas e seus simbolos  
+        //pega 15 moedas melhores rankeadas e seus simbolos  
         var rank = api
             .data.filter((elemento)=>{
-                if(elemento.rank <= 10) return elemento
+                if(elemento.rank <= 15) return elemento
             })
             .sort((a, b)=>{
                 if(a.rank > b.rank) return 1
